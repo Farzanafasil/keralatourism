@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 9px;
+/* me-2 use instead */
+   
+}
+.nav-item a:hover{
+    background-color: rgb(143, 141, 3);
+    color: rgb(42, 36, 36) !important;
+}
+
+
+.container-cf div{
+   
+    height: 100px;
+    background-color: green;
+    
+}
+.primenav{
+    float: left;
+    padding-top: 32px;
+}
+/* .mainhead{
+    float:right;
+} */
+.primenav ul li {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 50px;
+   
+   
+}
+.listitem a{
+    text-decoration: none;
+   
+}
+.listitem a:hover{
+    background-color: teal;
+    color: black !important;
+}
+.banner{
+    background-image: url('../images/');
+}
+.primenav ul li a .circle {
+    width: 106px;
+    height: 106px;
+    margin: -53px 0 0 -53px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.primenav ul li a .hcircle {
+    width: 0;
+    height: 0;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.containerform{
+    /* height: 350px; */
+    background-color: rgb(234, 241, 241);
+}
+.containerform form{
+    
+    width: 80%;
+    border: 1px solid rgb(222, 218, 218);
+    background-color: beige;
+    margin-top: 30px;
+     padding: 12px; 
+     
+}
+.log_button{
+    width: 100%;
+    background-color: green;
+}
+
+
+
