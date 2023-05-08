@@ -1,9 +1,10 @@
 /* @media screen and (min-width:568) { */
     
 
-
 .cards-wrapper{
     display: flex;
+     text-align: justify;
+   
 }
 .card{
     margin: 0 .5em;
@@ -26,4 +27,34 @@
     .card:not(:first-child){
         display: none;
     }
+}
+
+
+.input-control{
+    /* margin-bottom: 10px;
+    margin-top: 20px; */
+    position: relative;
+   
+   
+} 
+
+.input-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.input-control.error small{
+    color: red;
+    visibility: visible;
+}
+
+.input-control.success input{
+    border-color: green;
+
+}
+.input-control.error input{
+    border-color:red;
+    
 }

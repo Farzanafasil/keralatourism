@@ -66,23 +66,56 @@
     left: 50%;
     top: 50%;
 }
-.containerform{
-    /* height: 350px; */
-    background-color: rgb(234, 241, 241);
-}
-.containerform form{
+
+ .form{
     
-    width: 80%;
+    width: 400px;
     border: 1px solid rgb(222, 218, 218);
     background-color: beige;
     margin-top: 30px;
-     padding: 12px; 
+    padding: 30px 40px;
      
-}
+} 
+.input-control{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+} 
+
 .log_button{
     width: 100%;
     background-color: green;
 }
 
+/* .input-control  small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.input-control.error small{
+    border-color:red;
+    visibility: visible;
+}
 
+.input-control.success input{
+    border-color: green;
+}
+.input-control.error input{
+    border-color: red;
+} */
 
+#form #email_error,
+#form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #c62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+
+}
